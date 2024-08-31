@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำสถานที่ท่องเที่ยว</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>แนะนำสถานที่ท่องเที่ยว</h1>
+            <p>สำรวจความงดงามของกาฬสินธุ์และสมุทรปราการ</p>
+            <a href="#explore" class="btn">สำรวจเพิ่มเติม</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">หน้าแรก</a></li>
+            <li><a href="#kalasin">กาฬสินธุ์</a></li>
+            <li><a href="#samutprakarn">สมุทรปราการ</a></li>
+            <li><a href="#contact">ติดต่อเรา</a></li>
+        </ul>
+    </nav>
+
+    <main id="explore">
+        <section class="province" id="kalasin">
+            <h2>กาฬสินธุ์</h2>
+            <img src="d:\mic\งานอาจารย์จ่า\End\20210408_153252.jpg" alt="ภาพสถานที่ท่องเที่ยวในจังหวัดกาฬสินธุ์">
+            <p>สำรวจความงามทางธรรมชาติและวัฒนธรรมในกาฬสินธุ์</p>
+            <p>พิพิธภัณฑ์สิรินธรเป็นพิพิธภัณฑ์ไดโนเสาร์ที่ใหญ่ที่สุดในประเทศไทย ตั้งอยู่ใกล้ภูเวียง 
+                ที่นี่จัดแสดงโครงกระดูกไดโนเสาร์ที่ถูกขุดค้นพบในพื้นที่ของจังหวัดกาฬสินธุ์ 
+                รวมถึงการจัดแสดงนิทรรศการที่ให้ความรู้เกี่ยวกับไดโนเสาร์และโลกในยุคดึกดำบรรพ์ 
+                นอกจากการจัดแสดงในตัวอาคารแล้ว ยังมีส่วนจัดแสดงกลางแจ้งที่ให้ผู้เข้าชมได้เห็นแหล่งขุดค้นไดโนเสาร์ของจริงอีกด้วย</p>
+        </section>
+
+        <section class="province" id="samutprakarn">
+            <h2>สมุทรปราการ</h2>
+            <img src="d:\mic\งานอาจารย์จ่า\End\licensed-image.jpg" alt="ภาพสถานที่ท่องเที่ยวในจังหวัดสมุทรปราการ">
+            <p>ค้นพบประวัติศาสตร์และทิวทัศน์อันงดงามของสมุทรปราการ</p>
+            <p>เมืองโบราณเป็นพิพิธภัณฑ์กลางแจ้งที่มีขนาดใหญ่ที่สุดในโลก 
+                ที่นี่เป็นแหล่งรวบรวมสถาปัตยกรรมและวัฒนธรรมไทยจากทั่วประเทศ
+                 โดยมีการจำลองสถานที่สำคัญและโบราณสถานจากทุกภาคของประเทศไทย
+                  ไม่ว่าจะเป็นวัด พระราชวัง หรืออาคารทางประวัติศาสตร์ 
+                  ผู้เข้าชมสามารถสัมผัสประสบการณ์การเดินทางผ่านประวัติศาสตร์และวัฒนธรรมไทยได้อย่างครบถ้วนในที่เดียว</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 แนะนำสถานที่ท่องเที่ยว | ออกแบบโดยศุภชัย ศรีลับศรี 028</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-image: url('header-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .header-content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .header-content p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .province {
+            margin-bottom: 50px;
+        }
+        .province img {
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</body>
+</html>
